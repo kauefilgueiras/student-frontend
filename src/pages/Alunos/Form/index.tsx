@@ -26,7 +26,7 @@ const Alunos: React.FC = () => {
         updated_at: new Date()
     })
 
-
+const d: Date = new Date();
 
 
 
