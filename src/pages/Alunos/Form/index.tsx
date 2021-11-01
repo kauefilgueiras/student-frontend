@@ -115,7 +115,7 @@ const d: Date = new Date();
                     <Form.Group>
                         <Form.Label>Nascimento</Form.Label>
                         <Form.Control
-                            type="date"
+                            type="text"
                             name="nascimento"
                             value={model.nascimento}
                             onChange={(e: ChangeEvent<HTMLInputElement>) => updatedModel(e)} />
