@@ -9,7 +9,7 @@ import './index.css';
 interface IAluno {
     nome: string;
     ra: string;
-    nascimento: Date;
+    nascimento: string;
     matriculado: boolean;
     updated_at: Date;
 }
@@ -22,11 +22,10 @@ const Alunos: React.FC = () => {
         nome: '',
         ra: '',
         matriculado: Boolean(),
-        nascimento: new Date(),
+        nascimento: '',
         updated_at: new Date()
     })
 
-const d: Date = new Date();
 
 
 
